@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Specify the correct Maven tool name
-        maven 'MavenToolName'
+        maven 'maven_3_5_2'
     }
     stages {
         stage('Compile and Run Sonar Analysis') {
